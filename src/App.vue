@@ -3,6 +3,7 @@
     <top-nav></top-nav>
     <left-nav></left-nav>
     <foot-show></foot-show>
+    <div class="view-container"></div>
   </div>
 </template>
 
@@ -38,5 +39,14 @@ export default {
 </script>
 
 <style>
-@import "./assets/styles/main.css";
+@import "assets/styles/main.less";
+  .view-container{
+    width: 80.7vw;
+    height: 82vh;
+    margin-top: 1vh;
+    margin-right: 1.3vw;
+    background: aquamarine;
+    float: right;
+    border-radius: .5rem;
+  }
 </style>
